@@ -26,6 +26,8 @@ func shuffleCard(deck []string) []string {
 	return deck
 }
 
+
 func main() {
 	shuffleCard(createDeck())
+    fmt.Println("Done!")
 }
